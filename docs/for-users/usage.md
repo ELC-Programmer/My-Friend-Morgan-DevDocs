@@ -33,8 +33,8 @@
 7. Go to each room computer and open the app's [homepage]. Click "Room Sign In", select the correct room and click "Next". The Room computer should now display the title page.
 
 ### Begin exercise
-8.  On the admin computer, click "Generate Case Scenario".
-9.  Skip to [The Rest of the Exercise](#the-rest-of-the-exercise).
+1.  On the admin computer, click "Generate Case Scenario".
+2.  Skip to [The Rest of the Exercise](#the-rest-of-the-exercise).
 
 ## The Rest of the Exercise
 
