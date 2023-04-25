@@ -13,7 +13,7 @@
 1. On the admin computer, open the app's [homepage], click on "Admin Sign In", and sign in with the professor first and last name.
 2. Create a new session and choose the "Yes" option.
 3. Click on the session, choose the rooms, and click "Next"
-4. Go to each room computer and open the app's [homepage]. Click "Room Sign In", select the correct room and click "Next". The room computer should now display the title page.  
+4. Go to each room computer and open the app's [homepage]. Click "Room Sign In", select the correct room and click "Next". The room computer should now display the title page.
 
 ### Begin exercise
 5. On the admin computer, click "Start Survey". The room computers should automatically transition from the title page to the survey url page.
@@ -31,6 +31,7 @@
 5. On the admin computer, open the app's [homepage], click on "Admin Sign In", and sign in with the professor first and last name.
 6. Select the session created beforehand, choose the rooms, and click "Next".
 7. Go to each room computer and open the app's [homepage]. Click "Room Sign In", select the correct room and click "Next". The Room computer should now display the title page.
+
 ### Begin exercise
 8.  On the admin computer, click "Generate Case Scenario".
 9.  Skip to [The Rest of the Exercise](#the-rest-of-the-exercise).
