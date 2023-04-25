@@ -32,70 +32,21 @@ Writes survey to the DB
 Writes individual case scenario response to the DB
 
 ### Parameters
-- None
+- <mark>[add]</mark>
 
 ## **POST /submit/group-response**
 Writes group case scenario response to the DB
 
 ### Parameters
-- None
+- <mark>[add]</mark>
 
 ## **GET /submit/events**
-Returns all existing rooms and their availability
+Listens for events emitted by other GET/POST requests (e.g., `POST /submit/survey-response` emits a `survey-response event`). Used to display information on the administrator's Activity Dashboard regarding the number of submitted surveys/ individual responses/ group responses.
 
-### Parameters
-- None
-
-### Sample Response
-```
-[
-    {
-        "_id": "643d692a98d5e1de084917fc",
-        "building": "Fertitta Hall",
-        "rooms": [
-            {
-                "name": "JFF Room A",
-                "currentSession": {
-                    "firstName": "Carol",
-                    "lastName": "Folt",
-                    "sessionId": "123"
-                }
-            },
-            {
-                "name": "JFF Room B",
-                "currentSession": null
-            }
-        ]
-    },
-    {
-        "building": "Popovich Hall",
-        "rooms": [
-            {
-                "name": "JKP Room 301A",
-                "currentSession": null
-            },
-        ]
-    },
-    {
-        "building": "Zoom",
-        "rooms": []
-    }
-]
-```
-## **POST /session/start**
-Adds rooms to the session
-
-### Parameters
-- firstName - Professor’s first name
-- lastName - Professor’s last name
-- sessionId - Session's ID
-- building - Building Name
-- rooms - Array of room names to add to the session
-
-## **GET /session/download-results**
-Downloads the exercise survey results and case scenario responses as tsv files in a zipped file, then deletes the session from the database
-
-### Parameters
-- firstName - Professor’s first name
-- lastName - Professor’s last name
-- sessionId - Session's ID
+### Server side events:
+- `survey-response`
+    - When the `survey-response` event is caught by the `GET /submit/events` request, the `startSurveyResponseListener()` function is triggered and updates the Activity Dashboard (occurs every time a student submits a survey).
+- `individual-response`
+    - When the `individual-response` event is caught by the `GET /submit/events` request, the `startIndividualResponseListener()` function is triggered and updates the Activity Dashboard (occurs every time a student submits an individual response).
+- `group-response`
+    - When the `group-response` event is caught by the `GET /submit/events` request, the `startGroupResponseListener()` function is triggered and updates the Activity Dashboard (occurs every time students in a shared ELC room submit a group response).
