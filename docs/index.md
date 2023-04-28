@@ -1,7 +1,6 @@
 # My Friend Morgan
 # For Users
 - [Installation Steps](/for-users/installation-steps.md)
-- [Database Setup](/for-users/database-setup.md)
 - [Usage](/for-users/usage.md)
 
 # For Developers
@@ -16,4 +15,5 @@
     - [/exercise](/for-developers/server/api-endpoints/exercise.md)
     - [/session](/for-developers/server/api-endpoints/session.md)
     - [/submit](/for-developers/server/api-endpoints/submit.md)
-- [Database](/for-developers/database.md)
+- [Database Schema](/for-developers/database-schema.md)
+  - [Rooms Collection Setup](/for-developers/rooms-collection-setup.md)
