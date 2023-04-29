@@ -2,12 +2,11 @@
 # **Database Schema**
 
 
-### [Setting up the **rooms** Collection](/for-developers/rooms-collection-setup.md)
-<br>
+### [Setting up the **rooms** Collection](/rooms-collection-setup.md)
 
 ## Database Schema
 
-## **admin** Collection
+### **admin** Collection
 ```
 {
     firstName: string,
@@ -16,7 +15,7 @@
 }
 ```
 
-## **caseScenarios** Collection
+### **caseScenarios** Collection
 ```
 {
     firstName: string,
@@ -32,7 +31,7 @@
 }
 ```
 
-## **groupResponses** Collection
+### **groupResponses** Collection
 ```
 {
     first: string,
@@ -46,7 +45,7 @@
 }
 ```
 
-## **individualResponses** Collection
+### **individualResponses** Collection
 ```
 {
     first: string,
@@ -59,7 +58,7 @@
     genderReason: string
 }
 ```
-## **rooms** Collection
+### **rooms** Collection
 ```
 {
     building: string
@@ -76,7 +75,7 @@
 }
 ```
 
-## **sessions** Collection
+### **sessions** Collection
 ```
 {
     firstName: string,
@@ -90,7 +89,7 @@
 }
 ```
 
-## **surveyResponses** Collection
+### **surveyResponses** Collection
 ```
 {
     first: string,
