@@ -4,8 +4,6 @@
 
 ### [Setting up the **rooms** Collection](/rooms-collection-setup.md)
 
-## Example Documents:
-
 ### **admin** Collection
 ```
 {
