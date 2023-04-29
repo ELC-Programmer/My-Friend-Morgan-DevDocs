@@ -4,7 +4,7 @@
 
 ### [Setting up the **rooms** Collection](/rooms-collection-setup.md)
 
-## Database Schema
+## Example Documents:
 
 ### **admin** Collection
 ```
