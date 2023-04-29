@@ -24,7 +24,7 @@
     caseScenario: string,
     behaviors: {
         lifetime: Array<String>
-        pastime: Array<String>
+        pastyear: Array<String>
     }
 }
 ```
