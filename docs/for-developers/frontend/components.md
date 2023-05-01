@@ -20,7 +20,7 @@ A component for clickable red buttons.
 A component for clickable gray buttons. When a clickable red button is clicked, the button turns gray. Specific use case: Room selection if a room (red button) is already selected.
 
 **RedCard.js**  
-<mark>[Add info]</mark>
+A component for red buttons (similar to ClickableRedCard, but not clickable)
 
 **SurveyRow.js**  
 A component to represent a single row of the survey.

@@ -11,7 +11,6 @@ Writes survey to the DB
 - lastName - Professor’s last name
 - sessionId - Session’s ID
 
-<mark>Check if below sample structure is correct</mark>  
 ### Sample Response
 ```
 [
@@ -23,7 +22,17 @@ Writes survey to the DB
         "building": "Fertitta Hall",
         "room": "JFF Room A",
         "surveyData": {
-            ???????
+            1: {
+            lifetime: boolean,
+            recently: boolean
+            }
+            .
+            .
+            .
+            17: {
+                lifetime: boolean,
+                recently: boolean
+            }
         }
     },
 ]
@@ -32,13 +41,29 @@ Writes survey to the DB
 Writes individual case scenario response to the DB
 
 ### Parameters
-- <mark>[add]</mark>
+- first - Professor’s first name
+- last - Professor’s last name
+- sessionID - Session's ID
+- building - Building name
+- room - Room name
+- recommendation - Do they recommend Morgan?
+- reason - Reason for recommending Morgan
+- gender - What gender they thought Morgan was
+- genderReason - What factor most heavily impacted their choice
 
 ## **POST /submit/group-response**
 Writes group case scenario response to the DB
 
 ### Parameters
-- <mark>[add]</mark>
+- first - Professor’s first name
+- last - Professor’s last name
+- sessionID - Session's ID
+- building - Building name
+- room - Room name
+- recommendation - Do they recommend Morgan?
+- reason - Reason for recommending Morgan
+- gender - What gender they thought Morgan was
+- genderReason - What factor most heavily impacted their choice
 
 ## **GET /submit/events**
 Listens for events emitted by other GET/POST requests (e.g., `POST /submit/survey-response` emits a `survey-response event`). Used to display information on the administrator's Activity Dashboard regarding the number of submitted surveys/ individual responses/ group responses.

@@ -17,3 +17,10 @@
     - [/submit](/for-developers/server/api-endpoints/submit.md)
 - [Database Schema](/for-developers/database-schema.md)
   - [Rooms Collection Setup](/for-developers/rooms-collection-setup.md)
+
+## Contact Info
+- [Matthew Opara](mailto:m.opara25@gmail.com)  
+- [Emma Cheung](mailto:emmazcheung@gmail.com)  
+- [Alyssa Cho](mailto:choalyssa3@gmail.com)  
+- [Letitia Napitupulu](mailto:letitiamarthanapitupulu@gmail.com)  
+- [Tiffany Yu](mailto:tifyu19@gmail.com)
