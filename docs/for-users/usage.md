@@ -42,4 +42,6 @@
     - If the survey was taken inside the ELC, the student computer should automatically transition to the case scenario response page.
     - If the survey was taken outside the ELC, the room computer should also display the url for the students to give their response to the case scenario.
 2. After the individual case scenario responses are submittted, click "Start Group Response" on the admin computer. The room computer should automatically transition to the case scenario group response page.
-3. After the group case scenario responses are submitted, click "Generate Results" on the admin computer to see the results.
+3. After the group case scenario responses are submitted, click "Generate Results" on the admin computer to see the results for the individual case scenario responses.
+4. Click "Next" to view the group case scenario responses.
+5. Click on the room names below the graphs to see more information about the case scenario responses for each room.
